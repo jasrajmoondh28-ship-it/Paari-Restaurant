@@ -1,0 +1,5 @@
+// Simple dummy form submit
+document.getElementById('contact-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    alert('धन्यवाद! आपका संदेश भेज दिया गया।');
+});
